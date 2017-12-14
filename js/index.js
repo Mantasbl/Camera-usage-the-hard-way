@@ -9,7 +9,7 @@ function onDeviceReady() {
 
 function capturePhoto() {
 	navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 100,
-	destinationType: destinationType.FILE_URL });
+	destinationType: destinationType.FILE_URI });
 }
 	
 function onPhotoDataSuccess(imageData) {
