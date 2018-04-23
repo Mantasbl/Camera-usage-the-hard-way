@@ -2,14 +2,14 @@ body {
     padding: 0;
     margin: 0;
     overflow: hidden;
+    height: 100vh;
 }
 #page {
-    height: 100vh;
     background: #333 url('background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 3em 0;
+    padding-top: 3em;
 }
 .main-buttons img {
     margin:0 22.5%;
