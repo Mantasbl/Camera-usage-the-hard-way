@@ -1,0 +1,12 @@
+
+#page {
+    background: #333 url('/assets/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2em;
+}
+.main-buttons img {
+    margin:0 22.5%;
+    width: 55%;
+}
