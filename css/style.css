@@ -1,6 +1,6 @@
 
 #page {
-    background: #333 url('/assets/background.png');
+    background: #333 url('background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
