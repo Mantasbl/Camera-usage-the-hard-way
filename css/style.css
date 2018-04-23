@@ -1,4 +1,7 @@
-
+body {
+    padding: 0;
+    margin: 0;
+}
 #page {
     background: #333 url('background.png');
     background-position: center;
