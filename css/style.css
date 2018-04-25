@@ -4,7 +4,7 @@ body {
     overflow: hidden;
     height: 100vh;
 }
-#page {
+#home-page {
     background: #333 url('background.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -14,4 +14,8 @@ body {
 .main-buttons img {
     margin:0 22.5%;
     width: 55%;
+}
+
+#home-page a:active {
+    display: none;
 }
