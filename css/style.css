@@ -15,7 +15,3 @@ body {
     margin:0 22.5%;
     width: 55%;
 }
-
-#home-page a:active {
-    display: none;
-}
