@@ -5,6 +5,6 @@ for (var i=0; i<homeImages.length; i++) {
 }
 
 function btnAnimation() {
-        $(this).animate({width: '103%', opacity: '0.4'}, "fast");
-        $(this).animate({width: '100%', opacity: '1'}, "fast");
+        $(this).animate({opacity: '0.4'}, "fast");
+        $(this).animate({opacity: '1'}, "fast");
     }
