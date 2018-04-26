@@ -17,6 +17,8 @@ body {
 }
 .back-btn {
     position: absolute;
-    top:1%;
-    left:1%;
+}
+.back-btn img {
+    width: 80%;
+    height: auto;
 }
