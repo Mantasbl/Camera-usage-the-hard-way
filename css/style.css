@@ -11,6 +11,9 @@ body {
     background-size: cover;
     height: 100vh;
 }
+a:active {
+    top: 1px;
+}
 .main-buttons img {
     margin:0 22.5%;
     width: 55%;
