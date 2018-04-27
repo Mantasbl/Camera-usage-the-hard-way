@@ -26,20 +26,20 @@ a {
     width: 80%;
     height: auto;
 }
-.header {
+.learn-header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2;
 }
 
-.header h2, h1 {
+.learn-header h2, h1 {
     text-align: center;
     color: #f95e01;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin: 0;
 }
 
-.header h2 {
+.learn-header h2 {
     padding:7% 0;
     font-size: 20pt;
 }
