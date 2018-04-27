@@ -17,13 +17,13 @@ a {
     text-decoration: none;
 }
 .main-buttons img {
-    margin:0 22.5%;
-    height: 30%;
-    width: auto;
+    margin:0 25%;
+    height: auto;
+    width: 50%;
 }
 
-#main-btn1 img {
-    margin-top: 5%;
+#main-btn1 img, #main-btn4 img {
+    margin-top: 10%;
 }
 .back-btn {
     position: absolute;
@@ -72,17 +72,18 @@ a {
     border-right: 0;
 }
 
-#katakana-content {
-    display:none;
-}
-
-#hiragana-content, #katakana-content {
+.sound-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
     align-content: center;
     margin: 10% 5% 0 5%;
 }
+
+#katakana-content {
+    display:none;
+}
+
 .learn-sound {
     border: 2px solid #fff;
     background: #fff;
