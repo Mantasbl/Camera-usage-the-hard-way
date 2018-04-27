@@ -42,14 +42,14 @@ a {
 .header h2 {
     padding:7% 0;
     border: 3px solid #fff;
-    font-size: 32pt;
+    font-size: 20pt;
 }
 
 .header-name {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 1;
-    font-size: 46pt;
+    font-size: 32pt;
     padding:5% 0;
 }
 .header-hiragana {
