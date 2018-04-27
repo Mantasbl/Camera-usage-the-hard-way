@@ -13,6 +13,7 @@ body {
 }
 a {
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
 }
 .main-buttons img {
     margin:0 22.5%;
@@ -24,4 +25,47 @@ a {
 .back-btn img {
     width: 80%;
     height: auto;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
+}
+
+.header h2, h1 {
+    text-align: center;
+    color: #f95e01;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: 0;
+}
+
+.header h2 {
+    margin: 0;
+    padding: 30px;
+}
+
+.h-border {
+    border: 3px solid #fff;
+}
+.header-name {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    font-size: 4em;
+    border-left: 0;
+    border-right: 0;
+    padding:43px;
+}
+.header-hiragana {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 3em;
+    border-left: 0;
+}
+
+.header-katakana {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 3em;
+    border-right: 0;
 }
