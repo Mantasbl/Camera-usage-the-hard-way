@@ -41,7 +41,6 @@ a {
 
 .header h2 {
     padding:7% 0;
-    border: 3px solid #fff;
     font-size: 20pt;
 }
 
@@ -55,11 +54,14 @@ a {
 .header-hiragana {
     grid-column: 1;
     grid-row: 2;
+    border: 2px solid #fff;
     border-left: 0;
+    border-right: 0;
 }
 
 .header-katakana {
     grid-column: 2;
     grid-row: 2;
+    border: 2px solid #fff;
     border-right: 0;
 }
