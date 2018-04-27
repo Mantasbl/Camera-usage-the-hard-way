@@ -74,9 +74,9 @@ a {
 #hiragana-content, #katakana-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 2em;
+    grid-gap: 1em;
     align-content: center;
-    margin: 20% 10% 0 10%;
+    margin: 20% 5% 0 5%;
 }
 .learn-sound {
     border: 2px solid #fff;
@@ -86,8 +86,10 @@ a {
 .learn-sound h3 {
     font-size: 25pt;
     text-align: center;
+    margin:0;
 }
 .learn-sound p {
     font-size: 18pt;
     text-align: center;
+    margin:0;
 }
