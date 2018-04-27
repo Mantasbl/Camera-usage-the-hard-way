@@ -70,3 +70,24 @@ a {
 #katakana-content {
     display:none;
 }
+
+#hiragana-content, #katakana-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+    align-content: center;
+    margin: 20% 10% 0 10%;
+}
+.learn-sound {
+    border: 2px solid #fff;
+    background: #fff;
+}
+
+.learn-sound h3 {
+    font-size: 25pt;
+    text-align: center;
+}
+.learn-sound p {
+    font-size: 18pt;
+    text-align: center;
+}

@@ -18,14 +18,22 @@ document.getElementById("katakana-switch").addEventListener("click",katakanaSwit
 function hiraganaSwitch() {
     if ($("#katakana-content").css("display") != "none") {
         $("#katakana-content").css("display", "none");
-        $("#hiragana-content").css("display", "block");
+        $("#hiragana-content").css("display", "grid");
     }
 };
 
 function katakanaSwitch() {
     if ($("#hiragana-content").css("display") != "none") {
         $("#hiragana-content").css("display", "none");
-        $("#katakana-content").css("display", "block");
+        $("#katakana-content").css("display", "grid");
     }
 };
 
+var arrayEnglishSounds =  ['A','I','U','E','O','Ka','Ki','Ku','Ke','Ko','Sa','Shi','Su','Se','So','Ta','Chi','Tsu','Te','To','Na','Ni','Nu','Ne','No']
+var arrayJapaneseHiraganaSounds = ['あ','い','う','え','お','か','き','く','け','こ','さ','し','す','せ','そ','た','ち','つ','て','と','な','に','ぬ','ね','の']
+
+for (i = 0; i < arrayEnglishSounds.length; i++) {
+    $('<div class="learn-sound hiragana' + i + '"' + '/>').appendTo('#hiragana-content');
+    $('<h3 class="learn-sound-hiragana-japanese" />').text(arrayJapaneseHiraganaSounds[i]).appendTo('.hiragana' + i);
+    $('<p class="learn-sound-english" />').text(arrayEnglishSounds[i]).appendTo('.hiragana' + i);
+}
