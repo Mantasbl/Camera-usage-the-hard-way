@@ -66,3 +66,7 @@ a {
     border: 2px solid #fff;
     border-right: 0;
 }
+
+#katakana-content {
+    display:none;
+}
