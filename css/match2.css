@@ -1,0 +1,16 @@
+#match2-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    margin: 10% 5% 0 5%;
+}
+.match2-tiles {
+    background: #fff;
+    font-size: 30pt;
+    margin:0;
+    text-align: center;
+}
+
+.match2-tiles h3 {
+    color: #fff;
+}

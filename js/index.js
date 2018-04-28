@@ -29,11 +29,19 @@ function katakanaSwitch() {
     }
 };
 
-var arrayEnglishSounds =  ['A','I','U','E','O','Ka','Ki','Ku','Ke','Ko','Sa','Shi','Su','Se','So','Ta','Chi','Tsu','Te','To','Na','Ni','Nu','Ne','No']
-var arrayJapaneseHiraganaSounds = ['あ','い','う','え','お','か','き','く','け','こ','さ','し','す','せ','そ','た','ち','つ','て','と','な','に','ぬ','ね','の']
+var arrayEnglishSounds =  ['A','I','U','E','O','Ka','Ki','Ku','Ke','Ko','Sa','Shi','Su','Se','So','Ta','Chi','Tsu','Te','To','Na','Ni','Nu','Ne','No'];
+var arrayJapaneseHiraganaSounds = ['あ','い','う','え','お','か','き','く','け','こ','さ','し','す','せ','そ','た','ち','つ','て','と','な','に','ぬ','ね','の'];
+var arrayJapaneseKatakanaSounds = ['ア','イ','ウ','エ','オ','カ','キ','ク','ケ','コ','サ','シ','ス','セ','ソ','タ','チ','ツ','テ','ト','ナ','ニ','ヌ','ネ','ノ'];
 
-for (i = 0; i < arrayEnglishSounds.length; i++) {
+for (var i = 0; i < arrayEnglishSounds.length; i++) {
+    //Creating Hiragana Learn section with its English sound equivalent
     $('<div class="learn-sound hiragana' + i + '"' + '/>').appendTo('#hiragana-content');
     $('<h3 class="learn-sound-hiragana-japanese" />').text(arrayJapaneseHiraganaSounds[i]).appendTo('.hiragana' + i);
     $('<p class="learn-sound-english" />').text(arrayEnglishSounds[i]).appendTo('.hiragana' + i);
+
+    //Creating Katakana Learn section with its English sound equivalent
+    $('<div class="learn-sound katakana' + i + '"' + '/>').appendTo('#katakana-content');
+    $('<h3 class="learn-sound-katakana-japanese" />').text(arrayJapaneseKatakanaSounds[i]).appendTo('.katakana' + i);
+    $('<p class="learn-sound-english" />').text(arrayEnglishSounds[i]).appendTo('.katakana' + i);
 }
+
