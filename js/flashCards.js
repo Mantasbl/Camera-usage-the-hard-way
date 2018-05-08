@@ -20,6 +20,7 @@ function correct() {
     shuffle_answers();
 }
 
+//Fills in the H3 tags with Sounds
 function fillIn() {
     var random = Math.floor(Math.random()*25);
     var random2 = Math.floor(Math.random()*25);
