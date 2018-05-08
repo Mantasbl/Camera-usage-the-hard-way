@@ -1,4 +1,4 @@
-.answer-flashCard{
+#answer-flashCard{
     font-size: 100pt;
     color: #f95e01;
     text-align: center;
@@ -12,12 +12,9 @@
     margin-top: 0;
 }
 
-.bottom-flashCard {
-    width: 50%;
-}
-.right-flashCard {
-    float: right;
-}
-.left-flashCard {
-    float: left;
+#guesses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin: 10% 5% 0 5%;
 }
