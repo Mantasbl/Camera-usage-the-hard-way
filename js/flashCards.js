@@ -7,19 +7,18 @@ var arrayJapaneseKatakanaSounds = ['ア','イ','ウ','エ','オ','カ','キ','�
 var wrong_guess = document.getElementById("wrong-guess");
 var correct_guess = document.getElementById("correct-guess");
 var answer = document.getElementById("answer");
-
+wrong_guess.addEventListener('click', wrong, false);
+correct_guess.addEventListener('click', correct, false);
 
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
-    wrong_guess.addEventListener('click', wrong, false);
-    correct_guess.addEventListener('click', correct, false);
+    navigator.notification.beep(1);
 }
 function wrong() {
     alert("Try again!");
 }
 
 function correct() {
-    navigator.notification.beep(1);
     alert("Correct!");
     fillIn();
     shuffle_answers();
