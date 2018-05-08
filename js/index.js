@@ -16,6 +16,7 @@ document.getElementById("katakana-switch").addEventListener("click",katakanaSwit
 
 
 function hiraganaSwitch() {
+    navigator.notification.beep(1);
     if ($("#katakana-content").css("display") != "none") {
         $("#katakana-content").css("display", "none");
         $("#hiragana-content").css("display", "grid");
@@ -23,6 +24,7 @@ function hiraganaSwitch() {
 };
 
 function katakanaSwitch() {
+    navigator.notification.beep(1);
     if ($("#hiragana-content").css("display") != "none") {
         $("#hiragana-content").css("display", "none");
         $("#katakana-content").css("display", "grid");
