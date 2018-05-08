@@ -12,5 +12,7 @@
 }
 
 .match2-tiles h3 {
-    color: #fff;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 1.5em;
 }

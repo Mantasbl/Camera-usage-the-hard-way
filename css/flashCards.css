@@ -1,0 +1,23 @@
+.answer-flashCard{
+    font-size: 25em;
+    color: #f95e01;
+    text-align: center;
+}
+
+.guess-flashCard {
+    font-size: 15em;
+    color: #f95e01;
+    text-align: center;
+    margin-bottom: 10em;
+    margin-top: 0;
+}
+
+.bottom-flashCard {
+    width: 50%;
+}
+.right-flashCard {
+    float: right;
+}
+.left-flashCard {
+    float: left;
+}
