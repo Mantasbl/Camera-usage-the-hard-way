@@ -1,11 +1,11 @@
 .answer-flashCard{
-    font-size: 25em;
+    font-size: 80pt;
     color: #f95e01;
     text-align: center;
 }
 
 .guess-flashCard {
-    font-size: 15em;
+    font-size: 50pt;
     color: #f95e01;
     text-align: center;
     margin-bottom: 10em;
