@@ -17,7 +17,7 @@
 
 	<gap:platform name="android" />
 
-    <plugin name="cordova-plugin-dialog" version="1" />
+    <plugin name="cordova-plugin-dialog"/>
 
 </widget>
 
