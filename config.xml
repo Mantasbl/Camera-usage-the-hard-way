@@ -18,6 +18,6 @@
 	<gap:platform name="android" />
 
     <plugin name="cordova-plugin-dialogs" spec="~1.3.3" />
-
+    <preference name="orientation" value="portrait" />
 </widget>
 

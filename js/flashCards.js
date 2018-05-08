@@ -10,10 +10,6 @@ var answer = document.getElementById("answer");
 wrong_guess.addEventListener('click', wrong, false);
 correct_guess.addEventListener('click', correct, false);
 
-document.addEventListener("deviceready", onDeviceReady, false);
-function onDeviceReady() {
-    navigator.notification.beep(1);
-}
 function wrong() {
     alert("Try again!");
 }
