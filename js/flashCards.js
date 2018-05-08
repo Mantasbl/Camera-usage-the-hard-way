@@ -11,7 +11,6 @@ wrong_guess.addEventListener('click', wrong, false);
 correct_guess.addEventListener('click', correct, false);
 
 function wrong() {
-    navigator.notification.beep(2);
     alert("Try again!");
 }
 
@@ -25,15 +24,15 @@ function correct() {
 function fillIn() {
     var random = Math.floor(Math.random()*25);
     var random2 = Math.floor(Math.random()*25);
-    document.getElementById("answer-flashCard").innerHTML = arrayJapaneseHiraganaSounds[random];
-    document.getElementById("correct-guess").innerHTML = arrayEnglishSounds[random];
+    $("#answer-flashCard").text(arrayJapaneseHiraganaSounds[random]);
+    $("#correct-guess").text(arrayEnglishSounds[random]);
     // Checks if both random number are the same, if they are, second number is re-rolled
     // to make sure the Guesses dont come up with same values
     if (random2 != random) {
-        document.getElementById("wrong-guess").innerHTML = arrayEnglishSounds[random2];
+        $("#wrong-guess").text(arrayEnglishSounds[random2]);
     } else {
         random2 = Math.floor(Math.random()*25);
-        document.getElementById("wrong-guess").innerHTML = arrayEnglishSounds[random2];
+        $("#wrong-guess").text(arrayEnglishSounds[random2]);
     }
 }
 
