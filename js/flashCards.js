@@ -11,10 +11,12 @@ wrong_guess.addEventListener('click', wrong, false);
 correct_guess.addEventListener('click', correct, false);
 
 function wrong() {
+    navigator.notification.beep(2);
     alert("Try again!");
 }
 
 function correct() {
+    navigator.notification.beep(1);
     alert("Correct!");
     fillIn();
     shuffle_answers();
